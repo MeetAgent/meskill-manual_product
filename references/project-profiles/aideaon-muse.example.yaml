@@ -1,0 +1,34 @@
+product_name: Aideaon AI Muse
+default_profile: personal-feishu
+default_identity: user
+default_parent_node_token: replace_with_parent_node_token
+documents:
+  user_manual:
+    title: Aideaon AI Muse - 用户功能使用手册
+    wiki_url: https://example.feishu.cn/wiki/replace_with_user_manual_node_token
+    node_token: replace_with_user_manual_node_token
+    obj_token: replace_with_user_manual_docx_token
+    parent_node_token: replace_with_parent_node_token
+    draft_markdown: prd_doc/Aideaon AI Muse - 用户功能使用手册-飞书覆盖版.md
+    asset_dir: prd_doc/assets/aideaon-muse-user-manual-visual-v2/print-standard
+  change_note:
+    title: Aideaon AI Muse 用户变更说明
+    wiki_url: https://example.feishu.cn/wiki/replace_with_change_note_node_token
+    node_token: replace_with_change_note_node_token
+    obj_token: replace_with_change_note_docx_token
+    parent_node_token: replace_with_parent_node_token
+    draft_markdown: prd_doc/Aideaon AI Muse - 用户变更说明-飞书覆盖版.md
+source_files:
+  - CHANGELOG.md
+  - README.md
+required_keywords:
+  user_manual:
+    - Style
+    - Skills
+    - Director
+    - Storyboard
+    - Ad Audit
+  change_note:
+    - 用户可感知变化
+    - 使用建议
+    - 影响模块

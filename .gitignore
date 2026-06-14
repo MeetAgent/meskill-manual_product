@@ -1,0 +1,43 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local secrets and profiles
+.env
+.env.*
+!.env.example
+*.local.yaml
+*.local.yml
+*.local.json
+
+# Real project-specific Feishu profiles
+references/project-profiles/*.yaml
+references/project-profiles/*.yml
+!references/project-profiles/*.example.yaml
+!references/project-profiles/*.example.yml
+!references/project-profiles/README.md
+
+# Generated Feishu/lark-cli outputs
+tmp/
+work/
+output/
+outputs/
+artifacts/
+*.fetch.json
+*-fetch.json
+wiki-node*.json
+node-*.json
+media-manifest.local.json
+
+# Logs and caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/

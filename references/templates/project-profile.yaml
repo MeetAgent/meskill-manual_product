@@ -1,0 +1,31 @@
+product_name: Example Product
+default_profile: personal-feishu
+default_identity: user
+default_parent_node_token: replace_with_parent_node_token
+documents:
+  user_manual:
+    title: Example Product - 用户功能使用手册
+    wiki_url: https://example.feishu.cn/wiki/replace_with_node_token
+    node_token: replace_with_node_token
+    obj_token: replace_with_docx_token
+    parent_node_token: replace_with_parent_node_token
+    draft_markdown: docs/example-user-manual.md
+    asset_dir: docs/assets/example-product/print-standard
+    media_manifest: docs/assets/example-product/media-manifest.json
+  change_note:
+    title: Example Product 用户变更说明
+    wiki_url: https://example.feishu.cn/wiki/replace_with_node_token
+    node_token: replace_with_node_token
+    obj_token: replace_with_docx_token
+    parent_node_token: replace_with_parent_node_token
+    draft_markdown: docs/example-change-note.md
+    media_manifest: docs/assets/example-product/change-note-media.json
+source_files:
+  - CHANGELOG.md
+required_keywords:
+  user_manual:
+    - 用户操作
+    - 注意事项
+  change_note:
+    - 用户可感知变化
+    - 使用建议

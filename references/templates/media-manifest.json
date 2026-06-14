@@ -1,0 +1,15 @@
+{
+  "doc_url": "https://example.feishu.cn/wiki/replace_with_node_token",
+  "default_align": "center",
+  "items": [
+    {
+      "selection": "下图展示首页的主要操作入口。",
+      "file": "docs/assets/example-product/print-standard/home-entry.png",
+      "caption": "真实界面：首页入口，用户可从这里开始创建内容。",
+      "align": "center",
+      "image_type": "real_ui",
+      "main_image": true,
+      "required_keywords": ["首页", "创建"]
+    }
+  ]
+}

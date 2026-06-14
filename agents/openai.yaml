@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aidea Product Docs"
+  short_description: "Create Feishu manuals and release notes."
+  default_prompt: "Create or update a Feishu product manual or release note using the Aidea Product Docs skill."
